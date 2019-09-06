@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>我的博客</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 引入 Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+		<!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+		<!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+	</head>
+
+	<body>
+		<!--响应式的导航栏-->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+				<a class="navbar-brand" href="#">我的博客</a>
+			</div>
+			<!--collapse折叠式标题栏-->
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#">主页</a>
+					</li>
+					<li>
+						<a href="#">博客</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							个人<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">日志</a>
+							</li>
+							<li>
+								<a href="#">相册</a>
+							</li>
+							<li>
+								<a href="#">浏览</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!--组件对齐方式  navbar-right-->
+				<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+				</form>
+			</div>
+		</nav>
+		<!--jumbotron超大屏幕-->
+		<div class="jumbotron" style="margin-top: 50px;">
+			<div class="container text-center">
+				<h1>欢迎来到我的博客</h1>
+				<p>让我们一起交流吧~</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>关于我</h3>
+					<p>我的喜欢</p>
+					<div>
+						<img src="img/大狗.png" class="thumbnail" />
+					</div>
+					<h4><a href="#">个人主页</a></h4>
+					<p>大家好！我是zhuxr，喜欢电影，听歌 ,美食~</p>
+					<div>
+						<ul class="nav nav-pills nav-stacked">
+							<li class="active">
+								<a href="#">推荐的电影</a>
+							</li>
+							<li>
+								<a href="#">推荐的歌曲</a>
+							</li>
+							<li>
+								<a href="#">爱吃的美食</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<h3>我的学校</h3>
+					<p>我非常热爱我的学习和我的大学生活</p>
+					<img src="img/郑州商学院.jpg" class="thumbnail" />
+					<p>郑州商学院是由巩义籍台湾著名教育家王广亚博士为回馈桑梓、贡献家乡教育事业， 于2004年捐资创建的一所全日制普通本科高校。学校前身是与河南财经政法大学合作建设的独立学院——河南财经政法大学成功学院； 2012年3月，转设为独立设置的普通本科高校——郑州成功财经学院；2018年11月，更名为郑州商学院。学校位于物华天宝、人文荟萃的河南省巩义市。 近年来，学校坚持走内涵发展之路，力争早日将学校建成省内一流、国内知名、商科特色鲜明的应用型本科高校。
+					</p>
+					<p>2019-09-05 </p>
+					<br />
+					<h3>我和我的室友</h3>
+					<p>我和我的室友在军训时拍下的这张照片</p>
+					<img src="img/416合影.jpg" class="thumbnail" />
+					<p>我们从不同的地方相聚在416宿舍，我们有着不同的口音，不同的吃住习惯， 不同的人生观。而正是因为这些，才让我们的大学生活相处中出现各种的笑点，和各种泪点。 照片从左到右，第一个人睡在5号床，是个特别爱干净，爱打理的人。 第二个人是我，哈哈，睡在4号床，和第一个人不同，我不爱打理，柜子里总是乱糟糟的，然后和她们说，这是有灵魂的柜子。哈哈。 第三个人睡1号床，是个交际能力特别强的人，说话嗓门大，知道的八卦也多。 第四个人睡2号床，哈哈，感觉她整天就是傻乎乎的，很善良，很容易相处。 给我们拍照的人睡3号床，她很独立，知道的东西也多，平时有事都会问问她，有她在，仿佛事情总是会变的很简单。
+					</p>
+					<p>2019-09-05 </p>
+				</div>
+			</div>
+		</div>
+		<div class="jumbotron" style="margin-bottom: 0px;">
+			<div class="container text-center">
+
+				<p>zhuxr&copy;2019-2050</p>
+			</div>
+		</div>
+	</body>
+	<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+	<script src="js/jquery-1.11.0.js"></script>
+	<!-- 包括所有已编译的插件 -->
+	<script src="js/bootstrap.js"></script>
+
+</html>
